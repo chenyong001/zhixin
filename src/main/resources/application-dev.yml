@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://54.254.118.7:3366/tansci?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    url: jdbc:mysql://101.43.34.244:3306/m2c?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    username: root
+    password: root123456
+    initialSize: 10
+    minIdle: 10
+    maxActive: 100
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 300000
+    minEvictableIdleTimeMillis: 3600000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+elasticsearch:
+  userName: elastic
+  userPwd: 123456
+  scheme: http
+  address: 101.43.34.244:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000

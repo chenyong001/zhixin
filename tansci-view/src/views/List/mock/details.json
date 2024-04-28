@@ -1,0 +1,122 @@
+{
+  "status": 0,
+  "msg": null,
+  "data": null,
+  "map": {
+    "face": [
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "faceAnnotations",
+        "objectAnno": "anger_likelihood",
+        "score": "0.876356840133667",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "faceAnnotations",
+        "objectAnno": "joy_likelihood",
+        "score": "2",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "faceAnnotations",
+        "objectAnno": "sorrow_likelihood",
+        "score": "1",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "faceAnnotations",
+        "objectAnno": "surprise_likelihood",
+        "score": 0.189225,
+        "textAnno": null
+      }
+    ],
+    "file": "Apple000000.jpg",
+    "text": [
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "textAnnotations",
+        "objectAnno": null,
+        "score": null,
+        "textAnno": "G\nPUSH LIMITS.\nNOT BUTTONS.\nBMW GESTURE CONTROL. TOUCH SCREEN TECHNOLOGY.\nMAY DOPLANY\n875 M 1429\n0"
+      }
+    ],
+    "label": [
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Product",
+        "score": "0.9078037738800049",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Automotive design",
+        "score": "0.876356840133667",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Gesture",
+        "score": "0.852604866027832",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Font",
+        "score": "0.8188855051994324",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Gadget",
+        "score": "0.7832094430923462",
+        "textAnno": null
+      }
+    ],
+    "object": [
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Product",
+        "score": "0.9078037738800049",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Automotive design",
+        "score": "0.876356840133667",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Gesture",
+        "score": "0.852604866027832",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Font",
+        "score": "0.8188855051994324",
+        "textAnno": null
+      },
+      {
+        "pid": "f0f8b2c20dd347d1b9f5054fdf63b52b",
+        "ptype": "labelAnnotations",
+        "objectAnno": "Gadget",
+        "score": "0.7832094430923462",
+        "textAnno": null
+      }
+    ]
+  },
+  "list": null
+}

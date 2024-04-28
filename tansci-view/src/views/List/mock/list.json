@@ -1,0 +1,36 @@
+{
+  "status": 0,
+  "msg": null,
+  "data": null,
+  "map": {
+    "pageNo": 2,
+    "count": 11,
+    "pageSize": 5
+  },
+  "list": [
+    {
+      "id": "0cc959c45e6c4c8882e0773ec310aca7",
+      "picture": "Apple00006C1.png",
+      "status": 0,
+      "createTime": "2023-12-13T06:32:43.291+00:00",
+      "updateTime": "2023-12-13T06:32:43.291+00:00",
+      "bas64": "https://saas-prod.obs.cn-east-3.myhuaweicloud.com/Front-end_Component/site/demo-image-2.jpeg"
+    },
+    {
+      "id": "445d8458ddde479eb6e2bca5c9ccb57a",
+      "picture": "Apple00006C1.png",
+      "status": 1,
+      "createTime": "2023-12-13T06:32:43.483+00:00",
+      "updateTime": "2023-12-13T06:32:43.483+00:00",
+      "bas64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiMAAC4jAXilP3YAAAF0SURBVDhPnVMxboQwEHSDFIniqC5IaXgCykl5B0WUbwQlFPyAKkL3CkpKnsEzkK44SpTL4Y13bYNNkEEZydi7tsc7uwuDnQjDEBhj20Odd6JtW4jjWFlu7CIsyxLSNFWWGxYh5xy+jfHDpT9JEqjrWhobWImQw02Q3ZWFCIIA+r5XlhubhK78LQtCPvpa0IQomcPX+Qzv2Yew5pRgKiSBPIu+m/JNhLMkM0IOydurkT/5CIIxn9bSkn7PU4RN01CeUJ5NCHB4fILL9SoN4deFYv7BKiAOzxeESIZVrKqKZk04ipXM34lexwfuYlZ8RI4kJkhyURQwDAOMYvP55UQkSIhHdf+ZuZshZU4RixSMYj3lEC/JAmST3Ln/5GWM2oJ66OF4pBn3rSpjpFEUQdd1ZM/9JyTb6ibodtGwLQEt0+w/jF5HbWJJhvjj0VHmeQ7pZ0ZSsMeWWCUz+9AERombrv+XLq8NtW9BR7n3/zWxSvh/APwC4pbq7oPesIwAAAAASUVORK5CYIIwMDAwAAAAa3toc3QAAAAAMzY2NTk5NDEAAABre2hzdAAAAAA="
+    },
+    {
+      "id": "445d8458ddde479eb6e2bca5c9ccb57aa",
+      "picture": "Apple00006C1.png",
+      "status": 1,
+      "createTime": "2023-12-13T06:32:43.483+00:00",
+      "updateTime": "2023-12-13T06:32:43.483+00:00",
+      "bas64": "https://saas-prod.obs.cn-east-3.myhuaweicloud.com/Front-end_Component/site/demo-image-1.jpeg"
+    }
+  ]
+}

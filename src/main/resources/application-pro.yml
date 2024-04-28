@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://54.254.118.7:3366/m2c?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    username: m2c
+    password: M2c@123456
+    initialSize: 10
+    minIdle: 10
+    maxActive: 100
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 300000
+    minEvictableIdleTimeMillis: 3600000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+elasticsearch:
+  userName: elastic
+  userPwd: 123456
+  scheme: http
+  address: 54.254.118.7:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
