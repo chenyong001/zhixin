@@ -8,7 +8,7 @@ import env from '../config/env'
  * @returns 
  */
 export function templatePage(params) {
-    return axios.get(env.host.base + '/m2c/template/page', { params: params });
+    return axios.get(env.host.base + '/zx/template/page', { params: params });
 }
 
 /**
@@ -17,7 +17,7 @@ export function templatePage(params) {
  * @returns 
  */
 export function templateSave(params) {
-    return axios.post(env.host.base + '/m2c/template/save', params);
+    return axios.post(env.host.base + '/zx/template/save', params);
 }
 
 /**
@@ -26,7 +26,7 @@ export function templateSave(params) {
  * @returns 
  */
 export function templateUpdate(params) {
-    return axios.post(env.host.base + '/m2c/template/update', params);
+    return axios.post(env.host.base + '/zx/template/update', params);
 }
 
 /**
@@ -35,7 +35,7 @@ export function templateUpdate(params) {
  * @returns 
  */
 export function templateDel(params) {
-    return axios.get(env.host.base + '/m2c/template/delete', { params: params });
+    return axios.get(env.host.base + '/zx/template/delete', { params: params });
 }
 
 
@@ -45,5 +45,5 @@ export function templateDel(params) {
  * @returns 
  */
 export function logPage(params) {
-    return axios.get(env.host.base + '/m2c/template/logPage', { params: params });
+    return axios.get(env.host.base + '/zx/template/logPage', { params: params });
 }

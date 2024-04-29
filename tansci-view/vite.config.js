@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // const url = 'https://ykai.itjcloud.com';
-const localUrl='https://www.opencast.site'
+const localUrl='http://127.0.0.1:8015'
 // const localUrl='http://192.168.90.124:8015'
 
 export default defineConfig({
@@ -36,11 +36,11 @@ export default defineConfig({
         port: 8006,
         host:'0.0.0.0',
         proxy: {
-            '/m2c': {
+            '/zx': {
                 target: localUrl,//url,testUrl,localUrl
                 changeOrigin: true,
                 pathRewrite: {
-                    '^/m2c': '/m2c'
+                    '^/zx': '/zx'
                 }
             }
         },

@@ -26,7 +26,7 @@ import { TjTable, TjImage, TjImageViewer, TjButton, TjPagination, } from 'tj-des
 import { formatToDateTime } from '../../utils/utils.js';
 // import ListMockData from './mock/list.json';
 import { search } from '../../api/list';
-const IMG_BASE_URL = 'https://www.opencast.site/m2c/image/';
+const IMG_BASE_URL = 'https://www.opencast.site/zx/image/';
 const data = ref<any>(null);
 const router = useRouter();
 const loading = ref(true);

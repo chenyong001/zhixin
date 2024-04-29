@@ -138,7 +138,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { Search } from '@element-plus/icons-vue'
 import { useRouter, onBeforeRouteLeave } from 'vue-router';
 import { search } from '@/api/list';
-const IMG_BASE_URL = 'https://www.opencast.site/m2c/image/';
+const IMG_BASE_URL = 'https://www.opencast.site/zx/image/';
 const onCurrentChange = (index, pageInfo) => {
   state.pageNo = index;
   localStorage.setItem('pageParams', JSON.stringify({

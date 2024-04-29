@@ -57,7 +57,7 @@ router.beforeEach(async (to, from, next) => {
     if (to.meta.title) {
         document.title = to.meta.title
     } else {
-        document.title = "多模态语料库"
+        document.title = "智心库"
     }
 
     // 动态添加路由

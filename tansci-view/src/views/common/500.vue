@@ -4,7 +4,7 @@
         <div class="text">很抱歉给您带来不便</div>
         <div class="text">但我们现在正在进行一些维护。</div>
         <div class="text">如果您需要，您可以随时与<a href="#">我们联系</a>，否则我们将很快恢复在线！</div>
-        <div class="text team">—— 多模态语料库</div>
+        <div class="text team">—— 智心库</div>
         <div>
             <el-button type="danger" icon="Back" round @click="goBack">返回</el-button>
         </div>

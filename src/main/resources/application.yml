@@ -1,7 +1,7 @@
 server:
   port: 8015
   servlet:
-    context-path: /zx/
+    context-path: /zx
 
 spring:
   profiles:

@@ -2,7 +2,7 @@
     <div class="container-404" :style="defaultHeight">
         <el-image :src="image" style="width: 30%; height:50%"></el-image>
         <div class="text">找不到您要查找的页面，请与<a href="#">我们联系</a>以报告此问题。</div>
-        <div class="text team">—— 多模态语料库</div>
+        <div class="text team">—— 智心库</div>
         <div>
             <el-button type="danger" icon="Back" round @click="goBack">返回</el-button>
         </div>

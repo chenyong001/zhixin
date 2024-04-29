@@ -62,7 +62,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { searchById, audit } from '@/api/list';
 import vuePhotoZoomPro from 'vue-photo-zoom-pro';
 import 'vue-photo-zoom-pro/dist/style/vue-photo-zoom-pro.css';
-const IMG_BASE_URL = 'https://www.opencast.site/m2c/image/';
+const IMG_BASE_URL = 'https://www.opencast.site/zx/image/';
 const dataList = ref([]) as any;
 const route = useRoute();
 const router = useRouter();

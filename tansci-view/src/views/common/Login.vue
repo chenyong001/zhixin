@@ -7,7 +7,7 @@
         </div>-->
         <div class="login-form">
           <el-form v-if="loginMode" :model="loginForm" ref="loginRuleForm">
-            <div class="login-form-title">欢迎登录 多模态语料库</div>
+            <div class="login-form-title">欢迎登录 智心库</div>
             <el-form-item prop="username" :rules="[
               { required: true, message: '请输入用户名', trigger: 'blur' },
               { pattern: /^[a-zA-Z]\w{4,17}$/, message: '用户名式有误，请重新输入', trigger: 'blur' }]">
@@ -48,9 +48,7 @@
           </div>-->
         </div>
       </div>
-      <div style="text-align:center;">
-        <a href="https://beian.miit.gov.cn" target="_blank">蜀ICP备2023011562号</a>
-      </div>
+
     </el-card>
   </div>
 </template>
@@ -107,7 +105,7 @@ const state = reactive({
     status: 0
   },
   socket: null,
-  socketUrl: "ws://localhost:8015/m2c/ws/"
+  socketUrl: "ws://localhost:8015/zx/ws/"
 });
 const {
   loginStyle,

@@ -7,7 +7,7 @@
                     <el-icon :size="26" style="vertical-align: middle;">
                         <OfficeBuilding />
                     </el-icon>
-                    <span style="vertical-align: middle;padding-left:1rem;">多模态语料库</span>
+                    <span style="vertical-align: middle;padding-left:1rem;">智心库</span>
                 </div>
             </el-card>
             <el-menu router :default-active="$route.path" :collapse="isCollapse" @select="onSelect" text-color="#242e42"

@@ -149,7 +149,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
   @Transactional
   @Override
   public boolean save(SysUser user) {
-    Integer count = this.baseMapper
+    Long count = this.baseMapper
         .selectCount(Wrappers.<SysUser>lambdaQuery().eq(SysUser::getUsername, user.getUsername()));
     if (Objects.nonNull(count) && count > 0) {
       throw new BusinessException("用户名称已存在！");

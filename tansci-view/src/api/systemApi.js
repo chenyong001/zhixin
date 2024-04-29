@@ -7,7 +7,7 @@ import env from '../config/env'
  * @returns {Promise<AxiosResponse<T>>}
  */
 export function login(params) {
-    return axios.post(env.host.base + '/m2c/user/login', params);
+    return axios.post(env.host.base + '/zx/user/login', params);
 }
 
 /**
@@ -16,7 +16,7 @@ export function login(params) {
  * @returns {Promise<AxiosResponse<T>>}
  */
 export function wxLogin(params) {
-    return axios.post(env.host.base + '/m2c/auth/wxLogin', params);
+    return axios.post(env.host.base + '/zx/auth/wxLogin', params);
 }
 
 /**
@@ -25,7 +25,7 @@ export function wxLogin(params) {
  * @returns {Promise<AxiosResponse<T>>}
  */
 export function wxCallback(params) {
-    return axios.post(env.host.base + '/m2c/auth/wxCallback', params);
+    return axios.post(env.host.base + '/zx/auth/wxCallback', params);
 }
 
 /**
@@ -34,7 +34,7 @@ export function wxCallback(params) {
  * @returns {Promise<AxiosResponse<T>>}
  */
 export function logout(params) {
-    return axios.post(env.host.base + '/m2c/user/logout', params);
+    return axios.post(env.host.base + '/zx/user/logout', params);
 }
 
 
@@ -45,7 +45,7 @@ export function logout(params) {
  * @returns 
  */
 export function dicList(params) {
-    return axios.get(env.host.base + '/m2c/dic/dicList', { params: params });
+    return axios.get(env.host.base + '/zx/dic/dicList', { params: params });
 }
 
 /**
@@ -54,7 +54,7 @@ export function dicList(params) {
  * @returns 
  */
 export function getGroupNameByList(params) {
-    return axios.get(env.host.base + '/m2c/dic/getGroupNameByList', { params: params });
+    return axios.get(env.host.base + '/zx/dic/getGroupNameByList', { params: params });
 }
 
 /**
@@ -63,7 +63,7 @@ export function getGroupNameByList(params) {
  * @returns 
  */
 export function dicSave(params) {
-    return axios.post(env.host.base + '/m2c/dic/save', params);
+    return axios.post(env.host.base + '/zx/dic/save', params);
 }
 
 /**
@@ -72,7 +72,7 @@ export function dicSave(params) {
  * @returns 
  */
 export function dicUpdate(params) {
-    return axios.post(env.host.base + '/m2c/dic/update', params);
+    return axios.post(env.host.base + '/zx/dic/update', params);
 }
 
 /**
@@ -81,7 +81,7 @@ export function dicUpdate(params) {
  * @returns 
  */
 export function dicDel(params) {
-    return axios.get(env.host.base + '/m2c/dic/del', { params: params });
+    return axios.get(env.host.base + '/zx/dic/del', { params: params });
 }
 
 // =================用户信息===========================
@@ -91,7 +91,7 @@ export function dicDel(params) {
  * @returns 
  */
 export function userPage(params) {
-    return axios.get(env.host.base + '/m2c/user/page', { params: params });
+    return axios.get(env.host.base + '/zx/user/page', { params: params });
 }
 
 /**
@@ -100,7 +100,7 @@ export function userPage(params) {
  * @returns 
  */
 export function userList(params) {
-    return axios.get(env.host.base + '/m2c/user/list', { params: params });
+    return axios.get(env.host.base + '/zx/user/list', { params: params });
 }
 
 /**
@@ -109,7 +109,7 @@ export function userList(params) {
  * @returns 
  */
 export function addUser(params) {
-    return axios.post(env.host.base + '/m2c/user/save', params);
+    return axios.post(env.host.base + '/zx/user/save', params);
 }
 
 /**
@@ -118,7 +118,7 @@ export function addUser(params) {
  * @returns 
  */
 export function updateUser(params) {
-    return axios.post(env.host.base + '/m2c/user/update', params);
+    return axios.post(env.host.base + '/zx/user/update', params);
 }
 
 /**
@@ -127,7 +127,7 @@ export function updateUser(params) {
  * @returns 
  */
 export function dicUser(params) {
-    return axios.get(env.host.base + '/m2c/user/del', { params: params });
+    return axios.get(env.host.base + '/zx/user/del', { params: params });
 }
 
 /**
@@ -136,7 +136,7 @@ export function dicUser(params) {
  * @returns 
  */
 export function modifyPass(params) {
-    return axios.post(env.host.base + '/m2c/user/modifyPass', params);
+    return axios.post(env.host.base + '/zx/user/modifyPass', params);
 }
 
 // =====================菜单管理==================================
@@ -147,7 +147,7 @@ export function modifyPass(params) {
  * @returns 
  */
 export function menuList(params) {
-    return axios.get(`${env.host.base}/m2c/menu/list`, { params: params });
+    return axios.get(`${env.host.base}/zx/menu/list`, { params: params });
 }
 
 /**
@@ -156,7 +156,7 @@ export function menuList(params) {
  * @returns 
  */
 export function delMenu(params) {
-    return axios.get(env.host.base + '/m2c/menu/del', { params: params });
+    return axios.get(env.host.base + '/zx/menu/del', { params: params });
 }
 
 /**
@@ -165,7 +165,7 @@ export function delMenu(params) {
  * @returns 
  */
 export function saveMenu(params) {
-    return axios.post(env.host.base + '/m2c/menu/save', params);
+    return axios.post(env.host.base + '/zx/menu/save', params);
 }
 
 /**
@@ -174,7 +174,7 @@ export function saveMenu(params) {
  * @returns 
  */
 export function updateMenu(params) {
-    return axios.post(env.host.base + '/m2c/menu/update', params);
+    return axios.post(env.host.base + '/zx/menu/update', params);
 }
 
 // =================角色管理============================
@@ -185,7 +185,7 @@ export function updateMenu(params) {
  * @returns 
  */
 export function rolePage(params) {
-    return axios.get(env.host.base + '/m2c/role/page', { params: params });
+    return axios.get(env.host.base + '/zx/role/page', { params: params });
 }
 
 /**
@@ -194,7 +194,7 @@ export function rolePage(params) {
  * @returns 
  */
 export function roleList(params) {
-    return axios.get(env.host.base + '/m2c/role/list', { params: params });
+    return axios.get(env.host.base + '/zx/role/list', { params: params });
 }
 
 /**
@@ -203,7 +203,7 @@ export function roleList(params) {
  * @returns 
  */
 export function delRole(params) {
-    return axios.get(env.host.base + '/m2c/role/del', { params: params });
+    return axios.get(env.host.base + '/zx/role/del', { params: params });
 }
 
 /**
@@ -212,7 +212,7 @@ export function delRole(params) {
  * @returns 
  */
 export function saveRole(params) {
-    return axios.post(env.host.base + '/m2c/role/save', params);
+    return axios.post(env.host.base + '/zx/role/save', params);
 }
 
 /**
@@ -221,7 +221,7 @@ export function saveRole(params) {
  * @returns 
  */
 export function updateRole(params) {
-    return axios.post(env.host.base + '/m2c/role/update', params);
+    return axios.post(env.host.base + '/zx/role/update', params);
 }
 
 /**
@@ -230,7 +230,7 @@ export function updateRole(params) {
  * @returns 
  */
 export function menuRoleList(params) {
-    return axios.get(env.host.base + '/m2c/role/menuRoleList', { params: params });
+    return axios.get(env.host.base + '/zx/role/menuRoleList', { params: params });
 }
 
 /**
@@ -239,7 +239,7 @@ export function menuRoleList(params) {
  * @returns 
  */
 export function menuRoleAdd(params) {
-    return axios.post(env.host.base + '/m2c/role/menuRoleAdd', params);
+    return axios.post(env.host.base + '/zx/role/menuRoleAdd', params);
 }
 
 /**
@@ -248,7 +248,7 @@ export function menuRoleAdd(params) {
  * @returns 
  */
 export function userRoleInfo(params) {
-    return axios.get(env.host.base + '/m2c/role/userRoleInfo', { params: params });
+    return axios.get(env.host.base + '/zx/role/userRoleInfo', { params: params });
 }
 
 /**
@@ -257,7 +257,7 @@ export function userRoleInfo(params) {
  * @returns 
  */
 export function userRoleAdd(params) {
-    return axios.post(env.host.base + '/m2c/role/userRoleAdd', params);
+    return axios.post(env.host.base + '/zx/role/userRoleAdd', params);
 }
 
 // ====================组织机构=========================
@@ -267,7 +267,7 @@ export function userRoleAdd(params) {
  * @returns 
  */
 export function orgList(params) {
-    return axios.get(env.host.base + '/m2c/org/list', { params: params });
+    return axios.get(env.host.base + '/zx/org/list', { params: params });
 }
 
 /**
@@ -276,7 +276,7 @@ export function orgList(params) {
  * @returns 
  */
 export function delOrg(params) {
-    return axios.get(env.host.base + '/m2c/org/del', { params: params });
+    return axios.get(env.host.base + '/zx/org/del', { params: params });
 }
 
 /**
@@ -285,7 +285,7 @@ export function delOrg(params) {
  * @returns 
  */
 export function saveOrg(params) {
-    return axios.post(env.host.base + '/m2c/org/save', params);
+    return axios.post(env.host.base + '/zx/org/save', params);
 }
 
 /**
@@ -294,7 +294,7 @@ export function saveOrg(params) {
  * @returns 
  */
 export function updateOrg(params) {
-    return axios.post(env.host.base + '/m2c/org/update', params);
+    return axios.post(env.host.base + '/zx/org/update', params);
 }
 
 /**
@@ -303,7 +303,7 @@ export function updateOrg(params) {
  * @returns 
  */
 export function orgRoleInfo(params) {
-    return axios.get(env.host.base + '/m2c/role/orgRoleInfo', { params: params });
+    return axios.get(env.host.base + '/zx/role/orgRoleInfo', { params: params });
 }
 
 /**
@@ -312,7 +312,7 @@ export function orgRoleInfo(params) {
  * @returns 
  */
 export function orgRoleAdd(params) {
-    return axios.post(env.host.base + '/m2c/role/orgRoleAdd', params);
+    return axios.post(env.host.base + '/zx/role/orgRoleAdd', params);
 }
 
 // ==============日志===============================================
@@ -323,7 +323,7 @@ export function orgRoleAdd(params) {
  * @returns 
  */
 export function logInfoPage(params) {
-    return axios.get(env.host.base + '/m2c/log/logInfoPage', { params: params });
+    return axios.get(env.host.base + '/zx/log/logInfoPage', { params: params });
 }
 
 /**
@@ -332,7 +332,7 @@ export function logInfoPage(params) {
  * @returns 
  */
 export function logErrorPage(params) {
-    return axios.get(env.host.base + '/m2c/log/logErrorPage', { params: params });
+    return axios.get(env.host.base + '/zx/log/logErrorPage', { params: params });
 }
 
 // ====================任务管理=========================
@@ -342,7 +342,7 @@ export function logErrorPage(params) {
  * @returns 
  */
 export function taskPage(params) {
-    return axios.get(env.host.base + '/m2c/taskConfig/page', { params: params });
+    return axios.get(env.host.base + '/zx/taskConfig/page', { params: params });
 }
 
 /**
@@ -351,7 +351,7 @@ export function taskPage(params) {
  * @returns 
  */
 export function delTask(params) {
-    return axios.get(env.host.base + '/m2c/taskConfig/del', { params: params });
+    return axios.get(env.host.base + '/zx/taskConfig/del', { params: params });
 }
 
 /**
@@ -360,7 +360,7 @@ export function delTask(params) {
  * @returns 
  */
 export function saveTask(params) {
-    return axios.post(env.host.base + '/m2c/taskConfig/save', params);
+    return axios.post(env.host.base + '/zx/taskConfig/save', params);
 }
 
 /**
@@ -369,7 +369,7 @@ export function saveTask(params) {
  * @returns 
  */
 export function updateTask(params) {
-    return axios.post(env.host.base + '/m2c/taskConfig/update', params);
+    return axios.post(env.host.base + '/zx/taskConfig/update', params);
 }
 
 /**
@@ -378,7 +378,7 @@ export function updateTask(params) {
  * @returns 
  */
 export function taskLogPage(params) {
-    return axios.get(env.host.base + '/m2c/taskLog/page', { params: params });
+    return axios.get(env.host.base + '/zx/taskLog/page', { params: params });
 }
 
 /**
@@ -387,7 +387,7 @@ export function taskLogPage(params) {
  * @returns 
  */
 export function taskLogClear(params) {
-    return axios.get(env.host.base + '/m2c/taskLog/clear', { params: params });
+    return axios.get(env.host.base + '/zx/taskLog/clear', { params: params });
 }
 
 // ====================采集管理=========================
@@ -397,7 +397,7 @@ export function taskLogClear(params) {
  * @returns 
  */
 export function collectPage(params) {
-    return axios.get(env.host.base + '/m2c/collect/page', { params: params });
+    return axios.get(env.host.base + '/zx/collect/page', { params: params });
 }
 /**
  * 采集数据分页
@@ -405,7 +405,7 @@ export function collectPage(params) {
  * @returns 
  */
 export function collectDataPage(params) {
-    return axios.get(env.host.base + '/m2c/collect/dataPage', { params: params });
+    return axios.get(env.host.base + '/zx/collect/dataPage', { params: params });
 }
 /**
  * 导出采集数据分页
@@ -415,7 +415,7 @@ export function collectDataPage(params) {
 export function exportTxt(params) {
     return axios({
         method: 'get',
-        url: env.host.base + '/m2c/collect/exportTxt',
+        url: env.host.base + '/zx/collect/exportTxt',
         responseType: 'blob',
         params: params
       });
@@ -425,7 +425,7 @@ export function exportTxt(params) {
 export function exportSrt(params) {
     return axios({
         method: 'get',
-        url: env.host.base + '/m2c/collect/exportSrt',
+        url: env.host.base + '/zx/collect/exportSrt',
         responseType: 'blob',
         params: params
       });
@@ -434,7 +434,7 @@ export function exportSrt(params) {
 export function exportWAV(params) {
     return axios({
         method: 'get',
-        url: env.host.base + '/m2c/collect/exportWAV',
+        url: env.host.base + '/zx/collect/exportWAV',
         responseType: 'blob',
         params: params
       });
@@ -446,7 +446,7 @@ export function exportWAV(params) {
  * @returns 
  */
 export function collect(params) {
-    return axios.get(env.host.base + '/m2c/collect/record', { params: params });
+    return axios.get(env.host.base + '/zx/collect/record', { params: params });
 }
 /**
  * 采集管理
@@ -454,12 +454,12 @@ export function collect(params) {
  * @returns 
  */
 export function sendNote(params) {
-    return axios.get(env.host.base + '/m2c/collect/sendNote', { params: params });
+    return axios.get(env.host.base + '/zx/collect/sendNote', { params: params });
 
 }
 
 export function updateNote(params) {
-    return axios.get(env.host.base + '/m2c/collect/updateNote', { params: params });
+    return axios.get(env.host.base + '/zx/collect/updateNote', { params: params });
 }
 
 
@@ -470,7 +470,7 @@ export function updateNote(params) {
  * @returns 
  */
 export function createNote(params) {
-    return axios.get(env.host.base + '/m2c/collect/createNote', { params: params });
+    return axios.get(env.host.base + '/zx/collect/createNote', { params: params });
   
 }
 
@@ -480,7 +480,7 @@ export function createNote(params) {
  * @returns 
  */
 export function cuttingRecord(params) {
-    return axios.post(env.host.base + '/m2c/collect/cuttingRecord', params);
+    return axios.post(env.host.base + '/zx/collect/cuttingRecord', params);
 }
 /**
  * 合并
@@ -488,7 +488,7 @@ export function cuttingRecord(params) {
  * @returns 
  */
 export function mergeRecord(params) {
-    return axios.post(env.host.base + '/m2c/collect/mergeRecord', params);
+    return axios.post(env.host.base + '/zx/collect/mergeRecord', params);
 }
 /**
  * 删除管理
@@ -496,7 +496,7 @@ export function mergeRecord(params) {
  * @returns 
  */
 export function deleteNote(params) {
-    return axios.post(env.host.base + '/m2c/collect/deleteNote', params);
+    return axios.post(env.host.base + '/zx/collect/deleteNote', params);
 }
 
 /**
@@ -505,13 +505,13 @@ export function deleteNote(params) {
  * @returns 
  */
 export function getMyData(params) {
-    // return axios.get(env.host.base + '/m2c/collect/record', params);
-    // return axios.post(env.host.base + '/m2c/taskConfig/save', params);
+    // return axios.get(env.host.base + '/zx/collect/record', params);
+    // return axios.post(env.host.base + '/zx/taskConfig/save', params);
 
-    return axios.get(env.host.base + '/m2c/collect/getMyData', { params: params });
+    return axios.get(env.host.base + '/zx/collect/getMyData', { params: params });
     // return axios({
     //     method: 'get',
-    //     url: env.host.base + '/m2c/collect/record',
+    //     url: env.host.base + '/zx/collect/record',
     //     params: params
     //   });
 }
@@ -522,7 +522,7 @@ export function getMyData(params) {
  * @returns 
  */
 export function getMarksByDocId(params) {
-    return axios.get(env.host.base + '/m2c/collect/getMarksByDocId', { params: params });
+    return axios.get(env.host.base + '/zx/collect/getMarksByDocId', { params: params });
 }
 
 /**
@@ -531,11 +531,11 @@ export function getMarksByDocId(params) {
  * @returns 
  */
 export function paramPage(params) {
-    return axios.get(env.host.base + '/m2c/recordParam/page', { params: params });
+    return axios.get(env.host.base + '/zx/recordParam/page', { params: params });
 }
 
 export function updateParam(params) {
-    return axios.get(env.host.base + '/m2c/recordParam/updateParam', { params: params });
+    return axios.get(env.host.base + '/zx/recordParam/updateParam', { params: params });
 }
 
 /**
@@ -544,7 +544,7 @@ export function updateParam(params) {
  * @returns 
  */
 export function createParam(params) {
-    return axios.get(env.host.base + '/m2c/recordParam/createParam', { params: params });
+    return axios.get(env.host.base + '/zx/recordParam/createParam', { params: params });
   
 }
 
@@ -554,7 +554,7 @@ export function createParam(params) {
  * @returns 
  */
 export function deleteParam(params) {
-    return axios.post(env.host.base + '/m2c/recordParam/deleteParam', params);
+    return axios.post(env.host.base + '/zx/recordParam/deleteParam', params);
 }
 
 /** ===chatGPT====start */
@@ -564,7 +564,7 @@ export function deleteParam(params) {
  * @returns 
  */
 export function chatGPTPage(params) {
-    return axios.get(env.host.base + '/m2c/chatGPT/page', { params: params });
+    return axios.get(env.host.base + '/zx/chatGPT/page', { params: params });
 }
 /**
  * 导出采集数据分页
@@ -574,7 +574,7 @@ export function chatGPTPage(params) {
 export function exportChatGPTTxt(params) {
     return axios({
         method: 'get',
-        url: env.host.base + '/m2c/chatGPT/exportChatGPTTxt',
+        url: env.host.base + '/zx/chatGPT/exportChatGPTTxt',
         responseType: 'blob',
         params: params
       });
@@ -587,7 +587,7 @@ export function exportChatGPTTxt(params) {
  * @returns 
  */
 export function deleteChatGPT(params) {
-    return axios.post(env.host.base + '/m2c/chatGPT/deleteChatGPT', params);
+    return axios.post(env.host.base + '/zx/chatGPT/deleteChatGPT', params);
 }
 
 /** ===chatGPT====end */

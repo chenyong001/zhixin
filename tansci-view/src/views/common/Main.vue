@@ -14,7 +14,7 @@ onMounted(() => {
 </script>
 <template>
     <div class="main-container">
-        欢迎使用 多模态语料库！
+        欢迎使用 智心库！
     </div>
 </template>
 <style lang="scss" scoped>

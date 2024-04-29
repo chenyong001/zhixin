@@ -9,7 +9,7 @@ import env from '../config/env'
  * @returns
  */
 export function search(params) {
-    return axios.get(env.host.base + '/m2c/pic/search', { params: params });
+    return axios.get(env.host.base + '/zx/pic/search', { params: params });
 }
   
   /**
@@ -18,7 +18,7 @@ export function search(params) {
    * @returns
    */
 export function searchById(params) {
-    return axios.get(env.host.base + '/m2c/pic/searchById', { params: params });
+    return axios.get(env.host.base + '/zx/pic/searchById', { params: params });
   }
   
   /**
@@ -31,7 +31,7 @@ export function updateTextAnno(data) {
     if(!token){
         return Promise.reject()
     }
-    return axios.post(env.host.base + '/m2c/pic/updateTextAnno', data, {
+    return axios.post(env.host.base + '/zx/pic/updateTextAnno', data, {
         headers: {
             'Content-Type': 'multipart/form-data',
             'Authorization': `Bearer ${token}`
@@ -45,6 +45,6 @@ export function updateTextAnno(data) {
    * @returns
    */
 export function audit(data) {
-    return axios.post(env.host.base + '/m2c/pic/audit?id='+ data);
+    return axios.post(env.host.base + '/zx/pic/audit?id='+ data);
   }
   

@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "m2c",
+    "name": "zx",
     "version": "1.0.0",
     "scripts": {
       "dev": "vite",
